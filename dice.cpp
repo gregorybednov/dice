@@ -42,9 +42,3 @@ int main(void) {
     cout << fortune_from(rand()%91, h, m);
     return 0;
 }
-
-template <typename T>
-T minimum(const T& lhs, const T& rhs)
-{
-    return lhs < rhs ? lhs : rhs;
-}
